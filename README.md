@@ -24,7 +24,9 @@ Utiliza el script global personalizado configurado en el entorno para compilar e
 ```bash
 cd proyecto_lluvias_cosmicas
 ```
+```bash
 geant4make.sh
+```
 # B. Iniciar la simulación:
 ```bash
 cd build
