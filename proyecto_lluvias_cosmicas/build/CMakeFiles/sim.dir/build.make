@@ -114,10 +114,24 @@ CMakeFiles/sim.dir/src/DetectorConstruction.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/sim.dir/src/DetectorConstruction.cc.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /geant4lab/proyecto_lluvias_cosmicas/src/DetectorConstruction.cc -o CMakeFiles/sim.dir/src/DetectorConstruction.cc.s
 
+CMakeFiles/sim.dir/src/PhysicsList.cc.o: CMakeFiles/sim.dir/flags.make
+CMakeFiles/sim.dir/src/PhysicsList.cc.o: /geant4lab/proyecto_lluvias_cosmicas/src/PhysicsList.cc
+CMakeFiles/sim.dir/src/PhysicsList.cc.o: CMakeFiles/sim.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/geant4lab/proyecto_lluvias_cosmicas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/sim.dir/src/PhysicsList.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sim.dir/src/PhysicsList.cc.o -MF CMakeFiles/sim.dir/src/PhysicsList.cc.o.d -o CMakeFiles/sim.dir/src/PhysicsList.cc.o -c /geant4lab/proyecto_lluvias_cosmicas/src/PhysicsList.cc
+
+CMakeFiles/sim.dir/src/PhysicsList.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/sim.dir/src/PhysicsList.cc.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /geant4lab/proyecto_lluvias_cosmicas/src/PhysicsList.cc > CMakeFiles/sim.dir/src/PhysicsList.cc.i
+
+CMakeFiles/sim.dir/src/PhysicsList.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/sim.dir/src/PhysicsList.cc.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /geant4lab/proyecto_lluvias_cosmicas/src/PhysicsList.cc -o CMakeFiles/sim.dir/src/PhysicsList.cc.s
+
 CMakeFiles/sim.dir/src/PrimaryGenerator.cc.o: CMakeFiles/sim.dir/flags.make
 CMakeFiles/sim.dir/src/PrimaryGenerator.cc.o: /geant4lab/proyecto_lluvias_cosmicas/src/PrimaryGenerator.cc
 CMakeFiles/sim.dir/src/PrimaryGenerator.cc.o: CMakeFiles/sim.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/geant4lab/proyecto_lluvias_cosmicas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/sim.dir/src/PrimaryGenerator.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/geant4lab/proyecto_lluvias_cosmicas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/sim.dir/src/PrimaryGenerator.cc.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sim.dir/src/PrimaryGenerator.cc.o -MF CMakeFiles/sim.dir/src/PrimaryGenerator.cc.o.d -o CMakeFiles/sim.dir/src/PrimaryGenerator.cc.o -c /geant4lab/proyecto_lluvias_cosmicas/src/PrimaryGenerator.cc
 
 CMakeFiles/sim.dir/src/PrimaryGenerator.cc.i: cmake_force
@@ -131,7 +145,7 @@ CMakeFiles/sim.dir/src/PrimaryGenerator.cc.s: cmake_force
 CMakeFiles/sim.dir/src/SensitiveDetector.cc.o: CMakeFiles/sim.dir/flags.make
 CMakeFiles/sim.dir/src/SensitiveDetector.cc.o: /geant4lab/proyecto_lluvias_cosmicas/src/SensitiveDetector.cc
 CMakeFiles/sim.dir/src/SensitiveDetector.cc.o: CMakeFiles/sim.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/geant4lab/proyecto_lluvias_cosmicas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/sim.dir/src/SensitiveDetector.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/geant4lab/proyecto_lluvias_cosmicas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/sim.dir/src/SensitiveDetector.cc.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sim.dir/src/SensitiveDetector.cc.o -MF CMakeFiles/sim.dir/src/SensitiveDetector.cc.o.d -o CMakeFiles/sim.dir/src/SensitiveDetector.cc.o -c /geant4lab/proyecto_lluvias_cosmicas/src/SensitiveDetector.cc
 
 CMakeFiles/sim.dir/src/SensitiveDetector.cc.i: cmake_force
@@ -147,6 +161,7 @@ sim_OBJECTS = \
 "CMakeFiles/sim.dir/sim.cc.o" \
 "CMakeFiles/sim.dir/src/ActionInitialization.cc.o" \
 "CMakeFiles/sim.dir/src/DetectorConstruction.cc.o" \
+"CMakeFiles/sim.dir/src/PhysicsList.cc.o" \
 "CMakeFiles/sim.dir/src/PrimaryGenerator.cc.o" \
 "CMakeFiles/sim.dir/src/SensitiveDetector.cc.o"
 
@@ -156,6 +171,7 @@ sim_EXTERNAL_OBJECTS =
 sim: CMakeFiles/sim.dir/sim.cc.o
 sim: CMakeFiles/sim.dir/src/ActionInitialization.cc.o
 sim: CMakeFiles/sim.dir/src/DetectorConstruction.cc.o
+sim: CMakeFiles/sim.dir/src/PhysicsList.cc.o
 sim: CMakeFiles/sim.dir/src/PrimaryGenerator.cc.o
 sim: CMakeFiles/sim.dir/src/SensitiveDetector.cc.o
 sim: CMakeFiles/sim.dir/build.make
@@ -206,7 +222,7 @@ sim: /home/ivanna/software/geant4-install/lib/libG4global.so
 sim: /home/ivanna/software/geant4-install/lib/libG4clhep.so
 sim: /home/ivanna/software/geant4-install/lib/libG4ptl.so.2.3.3
 sim: CMakeFiles/sim.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/geant4lab/proyecto_lluvias_cosmicas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable sim"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/geant4lab/proyecto_lluvias_cosmicas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable sim"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/sim.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

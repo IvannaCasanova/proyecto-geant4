@@ -11,6 +11,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/geant4lab/proyecto_lluvias_cosmicas/sim.cc" "CMakeFiles/sim.dir/sim.cc.o" "gcc" "CMakeFiles/sim.dir/sim.cc.o.d"
   "/geant4lab/proyecto_lluvias_cosmicas/src/ActionInitialization.cc" "CMakeFiles/sim.dir/src/ActionInitialization.cc.o" "gcc" "CMakeFiles/sim.dir/src/ActionInitialization.cc.o.d"
   "/geant4lab/proyecto_lluvias_cosmicas/src/DetectorConstruction.cc" "CMakeFiles/sim.dir/src/DetectorConstruction.cc.o" "gcc" "CMakeFiles/sim.dir/src/DetectorConstruction.cc.o.d"
+  "/geant4lab/proyecto_lluvias_cosmicas/src/PhysicsList.cc" "CMakeFiles/sim.dir/src/PhysicsList.cc.o" "gcc" "CMakeFiles/sim.dir/src/PhysicsList.cc.o.d"
   "/geant4lab/proyecto_lluvias_cosmicas/src/PrimaryGenerator.cc" "CMakeFiles/sim.dir/src/PrimaryGenerator.cc.o" "gcc" "CMakeFiles/sim.dir/src/PrimaryGenerator.cc.o.d"
   "/geant4lab/proyecto_lluvias_cosmicas/src/SensitiveDetector.cc" "CMakeFiles/sim.dir/src/SensitiveDetector.cc.o" "gcc" "CMakeFiles/sim.dir/src/SensitiveDetector.cc.o.d"
   "" "sim" "gcc" "CMakeFiles/sim.dir/link.d"

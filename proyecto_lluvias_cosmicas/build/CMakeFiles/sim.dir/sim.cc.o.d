@@ -694,6 +694,7 @@ CMakeFiles/sim.dir/sim.cc.o: /geant4lab/proyecto_lluvias_cosmicas/sim.cc \
  /home/ivanna/software/geant4-install/include/Geant4/G4UIbatch.hh \
  /home/ivanna/software/geant4-install/include/Geant4/G4UIExecutive.hh \
  /home/ivanna/software/geant4-install/include/Geant4/G4VUIshell.hh \
+ /geant4lab/proyecto_lluvias_cosmicas/include/PhysicsList.hh \
  /home/ivanna/software/geant4-install/include/Geant4/QGSP_BERT.hh \
  /home/ivanna/software/geant4-install/include/Geant4/G4VModularPhysicsList.hh \
  /home/ivanna/software/geant4-install/include/Geant4/G4VPhysicsConstructor.hh \

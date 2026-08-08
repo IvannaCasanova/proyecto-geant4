@@ -201,6 +201,30 @@ src/DetectorConstruction.cc.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sim.dir/build.make CMakeFiles/sim.dir/src/DetectorConstruction.cc.s
 .PHONY : src/DetectorConstruction.cc.s
 
+src/PhysicsList.o: src/PhysicsList.cc.o
+.PHONY : src/PhysicsList.o
+
+# target to build an object file
+src/PhysicsList.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sim.dir/build.make CMakeFiles/sim.dir/src/PhysicsList.cc.o
+.PHONY : src/PhysicsList.cc.o
+
+src/PhysicsList.i: src/PhysicsList.cc.i
+.PHONY : src/PhysicsList.i
+
+# target to preprocess a source file
+src/PhysicsList.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sim.dir/build.make CMakeFiles/sim.dir/src/PhysicsList.cc.i
+.PHONY : src/PhysicsList.cc.i
+
+src/PhysicsList.s: src/PhysicsList.cc.s
+.PHONY : src/PhysicsList.s
+
+# target to generate assembly for a file
+src/PhysicsList.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sim.dir/build.make CMakeFiles/sim.dir/src/PhysicsList.cc.s
+.PHONY : src/PhysicsList.cc.s
+
 src/PrimaryGenerator.o: src/PrimaryGenerator.cc.o
 .PHONY : src/PrimaryGenerator.o
 
@@ -267,6 +291,9 @@ help:
 	@echo "... src/DetectorConstruction.o"
 	@echo "... src/DetectorConstruction.i"
 	@echo "... src/DetectorConstruction.s"
+	@echo "... src/PhysicsList.o"
+	@echo "... src/PhysicsList.i"
+	@echo "... src/PhysicsList.s"
 	@echo "... src/PrimaryGenerator.o"
 	@echo "... src/PrimaryGenerator.i"
 	@echo "... src/PrimaryGenerator.s"

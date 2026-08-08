@@ -2,7 +2,7 @@
 #include "G4UImanager.hh"
 #include "G4VisExecutive.hh"
 #include "G4UIExecutive.hh"
-#include "QGSP_BERT.hh"
+#include "PhysicsList.hh"
 
 #include "DetectorConstruction.hh"
 #include "ActionInitialization.hh"
@@ -12,8 +12,7 @@ int main(int argc, char** argv) {
 
     runManager->SetUserInitialization(new DetectorConstruction());
 
-    G4VModularPhysicsList* physicsList = new QGSP_BERT;
-    runManager->SetUserInitialization(physicsList);
+    runManager->SetUserInitialization(new PhysicsList());
 
     runManager->SetUserInitialization(new ActionInitialization());
 

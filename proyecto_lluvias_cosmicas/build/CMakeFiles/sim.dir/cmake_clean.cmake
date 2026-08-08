@@ -6,6 +6,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/sim.dir/src/ActionInitialization.cc.o.d"
   "CMakeFiles/sim.dir/src/DetectorConstruction.cc.o"
   "CMakeFiles/sim.dir/src/DetectorConstruction.cc.o.d"
+  "CMakeFiles/sim.dir/src/PhysicsList.cc.o"
+  "CMakeFiles/sim.dir/src/PhysicsList.cc.o.d"
   "CMakeFiles/sim.dir/src/PrimaryGenerator.cc.o"
   "CMakeFiles/sim.dir/src/PrimaryGenerator.cc.o.d"
   "CMakeFiles/sim.dir/src/SensitiveDetector.cc.o"

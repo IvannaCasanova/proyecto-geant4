@@ -5,6 +5,7 @@ sim: \
   CMakeFiles/sim.dir/sim.cc.o \
   CMakeFiles/sim.dir/src/ActionInitialization.cc.o \
   CMakeFiles/sim.dir/src/DetectorConstruction.cc.o \
+  CMakeFiles/sim.dir/src/PhysicsList.cc.o \
   CMakeFiles/sim.dir/src/PrimaryGenerator.cc.o \
   CMakeFiles/sim.dir/src/SensitiveDetector.cc.o \
   /home/ivanna/software/geant4-install/lib/libG4Tree.so \
@@ -130,6 +131,8 @@ CMakeFiles/sim.dir/sim.cc.o:
 CMakeFiles/sim.dir/src/ActionInitialization.cc.o:
 
 CMakeFiles/sim.dir/src/DetectorConstruction.cc.o:
+
+CMakeFiles/sim.dir/src/PhysicsList.cc.o:
 
 CMakeFiles/sim.dir/src/PrimaryGenerator.cc.o:
 
